@@ -3,6 +3,8 @@
     <script src="js/bootstrap.min.js"></script>
 
     <link href="login-screen.css" rel="stylesheet">
+    
+    <script type="text/javascript" src="script.js"></script>
 
     <!------ Include the above in your HEAD tag ---------->
 </head>
@@ -13,16 +15,15 @@
         <div class="loginmodal-container">
             <br>
             <br>
-            <h1>Login to Your Account</h1><br>
-                <form>
+            <h1>Login to Your Account</h1>
+                    <br>
                     <div class="form-group">
 				        <input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="">
                         <br>
                         <input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password">
                         <br>
 				    </div>
-                    <button type="submit" class="btn btn-primary">Login</button>
-                </form>
+                    <button type="button" class="btn btn-primary" id="send" onclick="validateForm()">Login</button>
             <br>
             <br>
         </div>
