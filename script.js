@@ -39,6 +39,7 @@ function displayMaximumAttemptsMessageAndLockSendButton(){
 function checkIfCredentialsAreValid(attempts, username, password){
     if (username == "marcelo" && password == "goto"){
         alert("Login successfull!");
+        window.location = "dashboard.html";
     }
     else{
         
